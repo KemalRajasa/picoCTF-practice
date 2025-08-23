@@ -4,7 +4,7 @@ identify the hashed character : bvi level4.hash.bin
 
 store the hashed character in hash.txt
 
-identify hash type using : haash=identifier hash.txt
+identify hash type using : hash-identifier [hashed character]
 
 result is md5 hash
 
