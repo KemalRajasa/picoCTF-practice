@@ -1,0 +1,31 @@
+file enc_flag 
+enc_flag: ASCII text
+
+└─# cat enc_flag | base64 --decode
+VjFSQ2EyTXlSblJUV0dSVllrWmFWRmx0TlZOalJtUlhZVVU1YVZKVVZuaFdWekZoWVZkR2NrNVVX
+bUZTVmtwUVdWUkdibVZXVm5WUgpiSEJzWVRCd2VWVXhXbXBOUlRWSFdqTnNWZ3BYUjFKeVZGZHdW
+MlZzVWxaVmJFNW9UVVJDTlZaWE1XRlpVWEJUVFZaV05GWkdaSGRVCk1rcFdUbFZXYVZKSGVFVlhi
+bTkzVDFWT2JsQlVNRXNLCg==
+
+└─# cat enc_flag | base64 --decode | base64 --decode
+V1RCa2MyRnRTWGRVYkZaVFltNVNjRmRXYUU5aVJUVnhWVzFhYVdGck5UWmFSVkpQWVRGbmVWVnVR
+bHBsYTBweVUxWmpNRTVHWjNsVgpXR1JyVFdwV2VsUlZVbE5oTURCNVZXMWFZUXBTTVZWNFZGZHdU
+MkpWTlVWaVJHeEVXbm93T1VOblBUMEsK
+
+└─# cat enc_flag | base64 --decode | base64 --decode | base64 --decode
+WTBkc2FtSXdUbFZTYm5ScFdWaE9iRTVxVW1aaWFrNTZaRVJPYTFneVVuQlpla0pyU1ZjME5GZ3lV
+WGRrTWpWelRVUlNhMDB5VW1aYQpSMVV4VFdwT2JVNUViRGxEWnowOUNnPT0K
+
+└─# cat enc_flag | base64 --decode | base64 --decode | base64 --decode | base64 --decode
+Y0dsamIwTlVSbnRpWVhObE5qUmZiak56ZEROa1gyUnBZekJrSVc0NFgyUXdkMjVzTURSa00yUmZa
+R1UxTWpObU5EbDlDZz09Cg==
+
+└─# cat enc_flag | base64 --decode | base64 --decode | base64 --decode | base64 --decode | base64 --decode
+cGljb0NURntiYXNlNjRfbjNzdDNkX2RpYzBkIW44X2Qwd25sMDRkM2RfZGU1MjNmNDl9Cg==
+
+└─# cat enc_flag | base64 --decode | base64 --decode | base64 --decode | base64 --decode | base64 --decode | base64 --decode
+picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_de523f49}
+
+
+## FLAG
+picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_de523f49}
