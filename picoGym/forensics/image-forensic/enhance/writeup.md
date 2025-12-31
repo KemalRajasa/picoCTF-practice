@@ -1,3 +1,4 @@
-open the image source (since its an svg)
-
-flag is within the lines
+```bash
+strings drawing.flag.svg > strings.txt
+# flag within the strings
+```
