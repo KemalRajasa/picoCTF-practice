@@ -60,7 +60,7 @@ File: mystery.png (202940 bytes)
   chunk gAMA at offset 0x00032, length 4: 0.45455
   chunk pHYs at offset 0x00042, length 9: 2852132389x5669 pixels/meter
   CRC error in chunk pHYs (computed 38d82c82, expected 495224f0)
-ERRORS DETECTED in mystery-docum.png
+ERRORS DETECTED in mystery.png
 ```
 notice the CRC error in the pHYs chunk. 
 
