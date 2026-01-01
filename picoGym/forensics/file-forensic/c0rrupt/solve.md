@@ -92,7 +92,7 @@ save the edited file then recheck the png using `pngcheck`
 ```bash
 └─$ pngcheck -c -v mystery.png 
 
-File: mystery-docum.png (202940 bytes)
+File: mystery.png (202940 bytes)
   chunk IHDR at offset 0x0000c, length 13
     1642 x 1095 image, 24-bit RGB, non-interlaced
   chunk sRGB at offset 0x00025, length 1
@@ -100,7 +100,7 @@ File: mystery-docum.png (202940 bytes)
   chunk gAMA at offset 0x00032, length 4: 0.45455
   chunk pHYs at offset 0x00042, length 9: 2852132389x5669 pixels/meter
 :  invalid chunk length (too large)
-ERRORS DETECTED in mystery-docum.png
+ERRORS DETECTED in mystery.png
 ```
 
 now CRC chunk is solved, remaining issue is the pHYs chunk has an invalid length, it has more than 2 billion pixels/meter.
@@ -211,3 +211,4 @@ pngcheck mystery.png
 
 OK: mystery.png (1642x1095, 24-bit RGB, non-interlaced, 96.3%).
 ```
+
